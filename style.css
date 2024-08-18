@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.accordion {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid red;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-item {
+    border-bottom: 1px solid red;
+}
+
+.accordion-title {
+    padding: 15px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: red;
+}
+
+.accordion-content p {
+    margin: 0;
+}
